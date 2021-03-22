@@ -1,10 +1,10 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CAAG;;AAC3B,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;CAAG;;AEHtC,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,IAAI;CAAG",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CAAG;;AAC3B,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB;CAAG;;AACtC,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;CAAG;;AENjB,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAAG",
     "sources": [
         "../sass/style.sass",
         "../sass/_settings.sass",
-        "../sass/var.sass",
+        "../sass/_var.sass",
         "../sass/blocks/_header.sass"
     ],
     "names": [],
