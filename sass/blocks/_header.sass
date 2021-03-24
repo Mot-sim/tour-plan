@@ -1,4 +1,48 @@
-.header-wrapper
+.header
+  background-color: #FFFFFF
+  .header-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 40px
+    padding-bottom: 40px
+    position: relative
+  &__search
+    margin-right: auto
+.logo
+  margin-right: 108px
+.search
+  position: relative
+  &__input
+    width: 350px
+    height: 40px
+    background: #F5FAFE
+    border-radius: 6px
+    padding-left: 23px
+    padding-right: 68px
+    border-color: transparent
+    color: $text-color
+  &__button
+    position: absolute
+    right: 0
+    width: 65px
+    height: 40px
+    background: $primery
+    border-radius: 0px 6px 6px 0px
+    border-color: transparent
+.user
+  max-width: 107px
   display: flex
   align-items: center
-  justify-content: space-between
+  text-decoration: none
+  &__avatar
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    object-fit: cover
+    margin-right: 18px
+
+  &__name
+    font-size: 14px
+    line-height: 18px
+    color: $text-color
